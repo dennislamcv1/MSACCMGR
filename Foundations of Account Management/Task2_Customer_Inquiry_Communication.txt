@@ -1,0 +1,93 @@
+================================================================
+TASK 2: CUSTOMER INQUIRY COMMUNICATION SCENARIO
+Account Manager: Sarah Chen | Client: Precision Marketing Solutions
+================================================================
+
+----------------------------------------------------------------
+DELIVERABLE 1: CUSTOMER RESPONSE PARAGRAPH
+----------------------------------------------------------------
+
+Thank you for reaching out, and I completely understand why this situation
+was frustrating — receiving a feature update without prior notification is
+not the experience you deserve, and I sincerely apologize for that gap in
+our communication. I want to be transparent with you: a change was pushed
+to your account that should have been accompanied by advance notice and
+clear documentation, and I take full responsibility for ensuring that
+process improves going forward. To give you immediate clarity, the update
+modified [Feature Area], and I will have a plain-language summary of
+exactly what changed, what it affects, and what action — if any — is
+needed on your end delivered to you by end of business tomorrow. I am also
+scheduling a brief call this week so we can walk through the changes
+together and answer any questions your team may have in real time. Please
+know that proactive communication is a commitment I take seriously, and I
+am putting steps in place right now to make sure your team is always
+informed well ahead of any future updates.
+
+
+----------------------------------------------------------------
+DELIVERABLE 2: CUSTOMER COMMUNICATION BREAKDOWN
+----------------------------------------------------------------
+
+1. EMPATHY STATEMENT PLACED FIRST
+   Choice: The response opens by immediately validating the client's
+   frustration before offering any explanation or solution.
+   Contribution to Satisfaction: Customers feel heard and respected before
+   they receive information. Leading with empathy lowers defensiveness,
+   signals that their experience matters, and prevents the reply from
+   feeling dismissive or corporate. This is especially important when trust
+   has been disrupted.
+
+2. OWNERSHIP AND TRANSPARENCY
+   Choice: Rather than deflecting or offering vague language, the response
+   explicitly acknowledges what went wrong ("a change was pushed that
+   should have been accompanied by advance notification") and uses a direct
+   statement of accountability ("I take full responsibility").
+   Contribution to Satisfaction: Clients — especially those like Marcus who
+   value dependability — respond positively to directness. Owning the
+   mistake without hedging rebuilds credibility faster than explaining it
+   away, which demonstrates integrity and strengthens the partnership.
+
+3. CLEAR, ACCESSIBLE LANGUAGE
+   Choice: The response avoids technical jargon and uses plain, conversational
+   language throughout. The placeholder "[Feature Area]" signals that the
+   real message would name the specific update in concrete, non-technical
+   terms the client can easily understand.
+   Contribution to Satisfaction: Confusion is the root of this inquiry.
+   Accessible wording eliminates ambiguity, reduces the chance of follow-up
+   misunderstandings, and respects the client's time by making the message
+   easy to process on first read.
+
+4. SPECIFIC, TIME-BOUND COMMITMENTS
+   Choice: Rather than offering a general promise to "follow up soon," the
+   response commits to a concrete deliverable — a written summary by end of
+   business the following day — and a live call within the same week.
+   Contribution to Satisfaction: Vague commitments erode confidence. Specific
+   timelines give the client something tangible to hold onto, demonstrate
+   organized follow-through, and reflect the kind of reliability that directly
+   supports high satisfaction scores and long-term trust.
+
+5. SEQUENCING OF INFORMATION (Problem → Ownership → Resolution → Prevention)
+   Choice: The paragraph is intentionally structured to move the client
+   through a logical progression: acknowledging the problem, accepting
+   accountability, providing immediate clarity, offering a live touchpoint,
+   and closing with a forward-looking commitment to improvement.
+   Contribution to Satisfaction: Structured sequencing prevents the client
+   from having to hunt for answers within a disorganized message. It mirrors
+   the way people naturally process difficult news — they need to feel heard,
+   understand what happened, and know what comes next — making the response
+   feel complete and professionally handled.
+
+6. REINFORCEMENT OF PARTNERSHIP AND RELIABILITY
+   Choice: The closing sentence shifts the tone from reactive to proactive,
+   affirming that improved communication is already being addressed rather
+   than simply promised.
+   Contribution to Satisfaction: Ending on a forward-looking, partnership-
+   affirming note leaves the client with confidence rather than lingering
+   concern. It signals that this interaction is not just a one-time response
+   but a reflection of the account manager's ongoing commitment — reinforcing
+   the relationship at a moment when it was most at risk.
+
+
+================================================================
+END OF TASK 2
+================================================================

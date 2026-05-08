@@ -1,0 +1,203 @@
+================================================================
+DATATECH SOLUTIONS — SENIOR STRATEGIC ACCOUNT MANAGER
+PILOT PORTFOLIO: ANALYTICS-DRIVEN ACCOUNT STRATEGY
+================================================================
+TASK 3: KPI DEVELOPMENT & EXECUTIVE COMMUNICATION
+================================================================
+
+----------------------------------------------------------------
+DELIVERABLE 1: STRATEGIC KPI FRAMEWORK (4–6 Items)
+----------------------------------------------------------------
+
+KPI 1 — NET REVENUE RETENTION (NRR)
+  Definition:
+    The percentage of recurring revenue retained from existing
+    accounts over a defined period, inclusive of expansions,
+    contractions, and churn. Calculated as: (Beginning ARR +
+    Expansion ARR − Contraction ARR − Churned ARR) ÷ Beginning
+    ARR × 100.
+  Target Benchmark: ≥ 110% (indicating portfolio-level growth
+    from existing accounts alone)
+  Why It Matters:
+    NRR is the single most comprehensive indicator of portfolio
+    financial health. A reading above 100% confirms that expansion
+    revenue is outpacing losses — the defining characteristic of
+    a self-growing account base. For this portfolio, NRR surfaces
+    whether the risk-weighted investment strategy in Task 2 is
+    producing measurable retention and expansion outcomes, and it
+    is the metric most closely scrutinized by executive leadership
+    and board-level stakeholders when assessing go-to-market
+    efficiency and customer success performance.
+
+KPI 2 — PLATFORM UTILIZATION RATE
+  Definition:
+    The percentage of licensed product capacity actively used by
+    each account during a rolling 30-day period. Measured as active
+    users ÷ total licensed seats × 100, with additional tracking
+    of module-level feature adoption depth.
+  Target Benchmark: ≥ 80% across the portfolio; accounts below
+    60% flagged as high-risk.
+  Why It Matters:
+    Utilization rate is the earliest leading indicator of churn
+    risk and expansion readiness — often preceding formal churn
+    signals by 60–90 days. Accounts operating above 90% capacity
+    present a natural, data-supported entry point for expansion
+    conversations. Accounts trending downward signal adoption
+    friction, organizational changes, or competitive displacement
+    that require immediate intervention. This KPI directly informed
+    the at-risk identification in Task 1 and underpins the
+    re-engagement strategy for accounts 4 and 6.
+
+KPI 3 — EXECUTIVE ENGAGEMENT INDEX (EEI)
+  Definition:
+    A composite score measuring the frequency, recency, and
+    seniority of executive-level interactions per account over a
+    rolling 90-day window. Inputs include QBR attendance, executive
+    sponsor meeting frequency, C-suite email response rates, and
+    escalation involvement. Scored on a 1–10 scale.
+  Target Benchmark: ≥ 7.0 per account; accounts scoring below
+    5.0 flagged for immediate multi-threading outreach.
+  Why It Matters:
+    Research consistently shows that accounts with active, senior-
+    level engagement renew at significantly higher rates and expand
+    more frequently than those managed solely at the operational
+    level. The EEI quantifies relationship depth in a way that CRM
+    contact counts alone cannot, capturing whether DataTech has
+    meaningful access to decision-makers — not just practitioners.
+    For Account 3, where single-sponsor dependency was identified
+    as a critical risk, the EEI provides an objective metric to
+    track multi-threading progress over time.
+
+KPI 4 — RENEWAL PROBABILITY SCORE (RPS)
+  Definition:
+    A predictive, AI-assisted score assigned to each account 120–
+    180 days prior to renewal, synthesizing utilization trends,
+    engagement index, support escalation frequency, NPS, and
+    historical renewal behavior into a weighted probability
+    percentage. Modeled using Copilot-integrated forecasting logic
+    applied to CRM and product usage data.
+  Target Benchmark: RPS ≥ 75% for all accounts entering the
+    renewal window; accounts below 60% escalated to leadership.
+  Why It Matters:
+    The RPS converts qualitative relationship judgment into a
+    quantifiable, action-triggering metric that enables leadership
+    to prioritize renewal resources objectively and early. Rather
+    than relying on CSM instinct or last-minute deal reviews, the
+    RPS creates a structured, data-driven renewal pipeline visible
+    to leadership 4–6 months in advance. Given that three accounts
+    renew within a compressed 45-day Q3 window, having RPS scores
+    updated monthly for each allows for differentiated intervention
+    timelines rather than reactive, simultaneous crisis management.
+
+KPI 5 — CUSTOMER HEALTH SCORE (CHS)
+  Definition:
+    A weighted composite score (1–100) aggregating platform
+    utilization rate (30%), Executive Engagement Index (25%),
+    support ticket sentiment and resolution time (20%), NPS or
+    CSAT survey results (15%), and product adoption breadth (10%).
+    Updated monthly per account and displayed as a color-coded
+    status indicator: Green (75–100), Yellow (50–74), Red (0–49).
+  Target Benchmark: Portfolio average CHS ≥ 75; no more than
+    one account in Red status at any given time.
+  Why It Matters:
+    The CHS serves as the portfolio's universal health language —
+    a single, interpretable number that synthesizes multi-source
+    account data into an executive-ready signal. It enables
+    leadership to assess portfolio risk in seconds without requiring
+    deep familiarity with each account's individual dynamics. For
+    the CSM team, it creates a shared, objective accountability
+    framework. For this portfolio specifically, the CHS would
+    have surfaced the silent disengagement at accounts 4 and 6
+    approximately two months earlier than the manual review
+    conducted in Task 1.
+
+KPI 6 — EXPANSION ARR PIPELINE VALUE
+  Definition:
+    The total value of identified, qualified upsell and cross-sell
+    opportunities across the portfolio at any given point in time,
+    expressed in projected incremental ARR. Opportunities are
+    qualified based on product fit, budget confirmation signal,
+    champion identification, and a defined decision timeline within
+    the next two quarters.
+  Target Benchmark: Expansion pipeline value ≥ 25% of current
+    portfolio ARR ($1.05M target against the $4.2M base).
+  Why It Matters:
+    Tracking expansion pipeline as a formal KPI — rather than an
+    informal CSM estimate — creates executive visibility into
+    organic growth potential and ensures that upsell opportunities
+    are actively developed, not discovered accidentally at renewal.
+    It also enables resource planning decisions: knowing that
+    $380,000 in qualified expansion ARR sits at two accounts
+    justifies the investment in co-innovation sessions and advanced
+    module pilots outlined in the financial strategy. This KPI
+    closes the loop between the account health analysis and the
+    revenue growth forecast.
+
+----------------------------------------------------------------
+DELIVERABLE 2: DASHBOARD & VISUALIZATION DESCRIPTION (120–150 words)
+----------------------------------------------------------------
+
+The Power BI portfolio dashboard is structured as a three-panel
+executive view designed for rapid interpretation at the leadership
+level. The top panel features a Portfolio Health Scorecard — a
+color-coded tile matrix displaying each account's Customer Health
+Score, Renewal Probability Score, and NRR status in a single
+glance, enabling instant risk triage without navigating individual
+account records.
+
+The center panel presents a dual-axis trend line chart overlaying
+platform utilization rates against ARR growth trajectory for all
+six accounts over the trailing 18 months, making engagement-to-
+revenue correlation immediately visible. A scatter plot within the
+same panel maps accounts by expansion pipeline value against
+renewal probability, allowing leadership to prioritize both
+protection and growth investments simultaneously.
+
+The bottom panel features a waterfall chart illustrating projected
+NRR contribution by account — separating baseline retention,
+expansion uplift, and churn-risk exposure — alongside a quarterly
+renewal timeline bar chart flagging Q3 concentration risk.
+
+Copilot was used during dashboard design to generate natural-
+language narrative summaries embedded directly beneath each
+visualization panel, translating data patterns into plain-language
+insights that non-technical stakeholders can interpret and act on
+without requiring analytical support. This design choice reduced
+executive preparation time for quarterly business reviews by
+removing the need for a separate written briefing document.
+
+----------------------------------------------------------------
+DELIVERABLE 3: EXECUTIVE INSIGHT SUMMARY (100–120 words)
+----------------------------------------------------------------
+
+The portfolio is performing with meaningful internal divergence.
+Three accounts — representing approximately $2.1M in ARR — are
+demonstrating strong health scores, active engagement, and
+expansion readiness that positions them for 15–20% revenue growth
+within the next 18 months. The remaining three accounts carry
+measurable churn risk, concentrated renewal exposure in Q3, and
+declining utilization trends that require immediate, structured
+intervention.
+
+The recommended course of action is to authorize the Risk-Weighted
+Investment Strategy, directing differentiated resources toward both
+recovery and expansion simultaneously. Doing so is projected to
+raise portfolio NRR from an estimated 93% to 108–112%, protect
+approximately $840,000 in at-risk renewal ARR, and unlock a
+qualified expansion pipeline valued at $310,000–$380,000 in net
+new ARR.
+
+Inaction carries a compounding cost: accounts currently trending
+toward disengagement will not self-correct. The data is clear —
+the window for proactive intervention is now, and the financial
+case for acting decisively is stronger than the cost of delay.
+
+================================================================
+END OF TASK 3 DELIVERABLE
+================================================================
+Prepared by: Senior Strategic Account Manager — DataTech Solutions
+Portfolio ARR: $4.2M | Accounts Under Management: 6
+KPIs Developed: 6 | Dashboard Tool: Microsoft Power BI
+Narrative Intelligence: Microsoft Copilot (embedded summaries)
+Projected NRR (Post-Strategy): 108–112%
+================================================================

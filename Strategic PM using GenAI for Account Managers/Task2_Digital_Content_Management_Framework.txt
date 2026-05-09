@@ -1,0 +1,825 @@
+================================================================================
+       CLOUDTECH SOLUTIONS — PROFESSIONAL DIGITAL CONTENT MANAGEMENT FRAMEWORK
+       Client Engagement: HealthSystem Regional Patient Engagement Platform
+       Engagement Value: $3.2M | Program Scope: $15M Multi-Year Transformation
+       Prepared by: Senior Strategic Project Manager, CloudTech Solutions
+================================================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FRAMEWORK PURPOSE & DESIGN PHILOSOPHY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This Digital Content Management Framework (DCMF) governs how project
+information is created, stored, classified, retrieved, shared, and retired
+across the 15-month HealthSystem Regional engagement. It is designed to serve
+three simultaneous organizational objectives:
+
+  OPERATIONAL EXCELLENCE
+  Ensure that every project team member — regardless of location or role —
+  can find the right document, in the right version, at the right time.
+  Reduce time lost to document search, version confusion, and information
+  silos that degrade delivery performance.
+
+  STRATEGIC INTELLIGENCE
+  Structure project knowledge so that insights, decisions, and outcomes
+  accumulated during this $3.2M engagement are preserved as institutional
+  intelligence that informs CloudTech's pursuit of the $15M program expansion
+  and future healthcare consulting engagements.
+
+  COMPLIANCE & TRUST
+  Demonstrate to HealthSystem Regional that CloudTech manages sensitive
+  project information with the rigor expected of a long-term digital
+  transformation partner, meeting HIPAA, HITECH, and enterprise information
+  security standards at every level.
+
+The framework is built on four integrated pillars:
+  Pillar A — SharePoint Organization Model (Structure)
+  Pillar B — Metadata Schema Design (Classification)
+  Pillar C — Content Category Mapping (Taxonomy)
+  Pillar D — Governance, Compliance & Search Optimization (Control & Discovery)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 1: SHAREPOINT ORGANIZATION MODEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ARCHITECTURE OVERVIEW
+----------------------
+The SharePoint environment is structured as a two-tier site architecture:
+a top-level Program Hub and an Engagement-Specific Project Site. This design
+enables cross-program knowledge sharing at the portfolio level while maintaining
+security and access controls at the individual engagement level.
+
+  TIER 1 | PROGRAM HUB SITE
+  Name:    CloudTech Healthcare Transformation Program Hub
+  URL:     /sites/CT-HealthTransform-Hub
+  Purpose: Portfolio-level visibility; strategic intelligence repository;
+           cross-engagement learning; executive relationship management assets.
+  Access:  CloudTech leadership, Engagement Directors, Strategic PM leads.
+           HealthSystem Regional does NOT have access to this tier.
+
+  TIER 2 | ENGAGEMENT PROJECT SITE
+  Name:    HSR Patient Engagement Platform — Project Site
+  URL:     /sites/CT-HSR-PEP-2025
+  Purpose: Day-to-day project execution; client-facing document collaboration;
+           governance records; compliance documentation.
+  Access:  CloudTech project team + designated HealthSystem Regional
+           stakeholders (role-based, as defined in Section 4).
+
+────────────────────────────────────────────────────────────────────────────────
+ENGAGEMENT PROJECT SITE — FOLDER & LIBRARY STRUCTURE
+────────────────────────────────────────────────────────────────────────────────
+
+The following structure organizes content within the Tier 2 Engagement Site.
+Each top-level node is a SharePoint Document Library (not a simple folder),
+enabling independent permission sets, metadata schemas, and retention policies.
+
+LIBRARY 1 | PROJECT GOVERNANCE
+/CT-HSR-PEP-2025/01_Project-Governance/
+  ├── 1.1_Charter-and-Scope/
+  │     ├── Project Charter (v[N])
+  │     ├── Statement of Work
+  │     ├── Scope Baseline Documentation
+  │     └── Executive Approval Records
+  ├── 1.2_Project-Management-Plans/
+  │     ├── Project Management Plan (Master)
+  │     ├── Communications Management Plan
+  │     ├── Risk Management Plan
+  │     ├── Change Management Plan
+  │     └── Quality Management Plan
+  ├── 1.3_Schedule-and-Milestones/
+  │     ├── Master Project Schedule (MS Project / Planner exports)
+  │     ├── Phase-Level Gantt Charts
+  │     ├── Milestone Completion Certificates
+  │     └── Gate Review Decision Records
+  ├── 1.4_Budget-and-Financial-Controls/
+  │     ├── Approved Budget Baseline
+  │     ├── Monthly Financial Reports
+  │     ├── Invoice and Payment Records
+  │     └── Cost Variance Analysis Reports
+  └── 1.5_RACI-and-Org-Charts/
+        ├── RACI Matrix (Current)
+        ├── Project Org Chart
+        └── Stakeholder Register
+
+LIBRARY 2 | TECHNICAL DOCUMENTATION
+/CT-HSR-PEP-2025/02_Technical-Documentation/
+  ├── 2.1_Architecture-and-Design/
+  │     ├── System Architecture Blueprints
+  │     ├── Integration Design Specifications (Epic/Cerner)
+  │     ├── Data Flow Diagrams
+  │     ├── Security Architecture Documents
+  │     └── Technology Stack Documentation
+  ├── 2.2_Configuration-and-Build/
+  │     ├── Platform Configuration Logs
+  │     ├── Environment Setup Guides (Dev / UAT / Prod)
+  │     ├── Build Release Notes
+  │     └── System Administration Guides
+  ├── 2.3_Integration-and-APIs/
+  │     ├── EHR Integration Specifications
+  │     ├── API Documentation
+  │     ├── Interface Control Documents (ICDs)
+  │     └── Integration Test Plans and Results
+  ├── 2.4_Testing-and-Quality-Assurance/
+  │     ├── Test Strategy Document
+  │     ├── Test Cases and Scripts
+  │     ├── UAT Results and Sign-Off Records
+  │     ├── Defect Logs and Resolution Reports
+  │     └── Performance Test Results
+  └── 2.5_Infrastructure-and-Security/
+        ├── Infrastructure Provisioning Records
+        ├── Penetration Test Reports
+        ├── HIPAA Security Review Records
+        └── Disaster Recovery and BCP Documentation
+
+LIBRARY 3 | STRATEGIC ANALYSIS & MARKET INTELLIGENCE
+/CT-HSR-PEP-2025/03_Strategic-Intelligence/
+  ├── 3.1_Client-Strategic-Analysis/
+  │     ├── HS Regional Digital Maturity Assessments
+  │     ├── Current-State Analysis Reports
+  │     ├── Competitive Landscape Briefings
+  │     └── Phase 2 Opportunity Analysis (CONFIDENTIAL)
+  ├── 3.2_Market-and-Industry-Intelligence/
+  │     ├── Healthcare IT Market Research
+  │     ├── Patient Engagement Benchmark Reports
+  │     ├── Regulatory Environment Briefings (HIPAA / CMS Updates)
+  │     └── Peer Health System Case Studies
+  ├── 3.3_Strategic-Roadmaps/
+  │     ├── 3-Year Digital Transformation Roadmap (HS Regional)
+  │     ├── Phase 2 Business Case Drafts
+  │     ├── AI Diagnostics & Telehealth Readiness Assessments
+  │     └── Population Health Management Strategy Documents
+  └── 3.4_Lessons-Learned-Repository/
+        ├── Phase Retrospective Reports
+        ├── Cross-Engagement Lessons Learned (Anonymized)
+        └── Innovation and Process Improvement Logs
+
+LIBRARY 4 | CLIENT COMMUNICATIONS & DECISIONS
+/CT-HSR-PEP-2025/04_Client-Communications/
+  ├── 4.1_Executive-Briefings/
+  │     ├── Monthly Executive Briefing Decks
+  │     ├── C-Suite Meeting Minutes and Action Items
+  │     └── Strategic Value Memos
+  ├── 4.2_Stakeholder-Meeting-Records/
+  │     ├── Clinical Advisory Board Minutes
+  │     ├── Technical Sync Meeting Notes
+  │     ├── Operational Readiness Review Records
+  │     └── Weekly Status Report Archive
+  ├── 4.3_Decision-Log/
+  │     ├── Formal Decision Register (Active)
+  │     ├── Decision Records by Phase
+  │     └── Deferred Decision Tracker
+  ├── 4.4_Change-Management-Records/
+  │     ├── Change Request Log
+  │     ├── Change Impact Assessments
+  │     ├── Change Control Board Meeting Minutes
+  │     └── Approved Change Orders (Contractual)
+  └── 4.5_Formal-Correspondence/
+        ├── Executed Contracts and Amendments
+        ├── Formal Letters and Notices
+        ├── Escalation Records
+        └── Legal Review Documents
+
+LIBRARY 5 | TRAINING, ADOPTION & PERFORMANCE
+/CT-HSR-PEP-2025/05_Training-and-Performance/
+  ├── 5.1_Training-Materials/
+  │     ├── End-User Training Guides (by role)
+  │     ├── Clinical Workflow Training Modules
+  │     ├── Administrator and IT Training Content
+  │     └── Quick Reference Cards and Job Aids
+  ├── 5.2_Training-Delivery-Records/
+  │     ├── Training Completion Tracking Reports
+  │     ├── Training Session Attendance Logs
+  │     └── Training Effectiveness Assessments
+  ├── 5.3_Adoption-and-Change-Management/
+  │     ├── Change Readiness Assessment Reports
+  │     ├── Adoption Tracking Dashboards
+  │     ├── Resistance Log and Mitigation Notes
+  │     └── Communication Campaign Materials
+  └── 5.4_Performance-Metrics-and-Reporting/
+        ├── KPI Dashboard Exports (Monthly)
+        ├── Patient Engagement Metric Reports
+        ├── Clinical Adoption Rate Reports
+        └── Executive Performance Summaries
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 2: METADATA SCHEMA DESIGN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+METADATA PHILOSOPHY
+--------------------
+Metadata is the intelligence layer that transforms a folder structure from a
+static filing cabinet into a dynamic, searchable, and reportable knowledge
+system. Where folder structures organize content by location, metadata
+classifies content by meaning — enabling documents to be found not just by
+who knows where they are filed, but by what they are, what they relate to,
+and when they matter.
+
+This schema is designed to support four metadata-driven capabilities:
+  (1) Precision Search — find the right document in seconds without knowing
+      its exact name or location.
+  (2) Cross-Library Reporting — surface all documents related to a phase,
+      risk, or stakeholder regardless of which library they live in.
+  (3) Compliance Auditing — generate audit-ready reports of all documents
+      by classification, access tier, or regulatory category.
+  (4) Strategic Intelligence Mining — identify patterns across document
+      types and engagement phases to inform future program strategy.
+
+────────────────────────────────────────────────────────────────────────────────
+CORE METADATA SCHEMA — UNIVERSAL FIELDS
+(Applied to ALL documents across ALL libraries)
+────────────────────────────────────────────────────────────────────────────────
+
+FIELD 1: Document Type
+  Data Type:    Managed Metadata (Term Store)
+  Values:       Plan | Report | Charter | Specification | Minutes | Assessment |
+                Briefing | Roadmap | Change Record | Training Material |
+                Correspondence | Decision Record | Risk Register | Invoice |
+                Dashboard | Lessons Learned
+  Rationale:    Enables filtering across libraries by document category.
+                Supports governance reporting ("show me all risk registers
+                created in Phase 3") and audit trail generation.
+
+FIELD 2: Project Phase
+  Data Type:    Choice (Single Select)
+  Values:       Phase 0 – Pre-Engagement | Phase 1 – Discovery & Alignment |
+                Phase 2 – Design & Configuration | Phase 3 – Pilot Deployment |
+                Phase 4 – Enterprise Rollout | Phase 5 – Optimization & Handoff |
+                Program Level (Cross-Phase)
+  Rationale:    Allows time-based filtering and phase-specific reporting.
+                Essential for Gate Review documentation packages and retrospective
+                analysis. Supports Phase 2 business case preparation by enabling
+                retrieval of all Phase 1–5 strategic outputs in one query.
+
+FIELD 3: Stakeholder Audience
+  Data Type:    Managed Metadata (Multi-Select)
+  Values:       Internal – CloudTech Only | Executive (C-Suite) |
+                Clinical Leadership | Operational / IT | All Stakeholders |
+                Regulatory / Legal | External Partner
+  Rationale:    Enables rapid assembly of stakeholder-specific document packages
+                (e.g., "compile all documents tagged for Executive audience
+                in Phase 3"). Supports communication planning and access control
+                decisions.
+
+FIELD 4: Confidentiality Classification
+  Data Type:    Choice (Single Select, Required)
+  Values:       PUBLIC – Shareable externally |
+                INTERNAL – CloudTech team only |
+                CONFIDENTIAL – CloudTech + named HS Regional stakeholders |
+                RESTRICTED – Senior leadership only |
+                REGULATED – Contains HIPAA-adjacent or legally sensitive content
+  Rationale:    Drives automated permission recommendations and data loss
+                prevention (DLP) policy application. Ensures compliance with
+                HIPAA and HS Regional's Information Security Policy. Required
+                field to prevent ungoverned document sharing.
+
+FIELD 5: Document Status
+  Data Type:    Choice (Single Select)
+  Values:       Draft | In Review | Approved | Superseded | Archived | Void
+  Rationale:    Prevents stakeholders from acting on draft or superseded
+                documents. Combined with version control, creates a full
+                document lifecycle record. Supports quality management and
+                audit requirements.
+
+FIELD 6: Document Owner
+  Data Type:    Person / Group (Single)
+  Values:       [CloudTech team member responsible for content accuracy]
+  Rationale:    Establishes accountability for document quality and review
+                cycles. Enables automated review reminders via Power Automate.
+                Provides a clear point of contact for document questions.
+
+FIELD 7: Review / Expiry Date
+  Data Type:    Date (Required for Plans, Policies, Risk Registers)
+  Rationale:    Triggers automated review notifications before documents
+                become stale. Particularly important for Risk Registers,
+                Compliance Records, and Project Plans that require regular
+                updates to remain accurate.
+
+FIELD 8: Related Risk ID
+  Data Type:    Text (Multi-Value, Optional)
+  Values:       [Risk Register ID, e.g., RISK-001, RISK-014]
+  Rationale:    Creates a cross-document risk traceability chain. Allows
+                the PM to query "show me every document related to RISK-003
+                (EHR Integration Complexity)" and instantly surface all
+                mitigation plans, meeting notes, change records, and status
+                reports related to that risk.
+
+────────────────────────────────────────────────────────────────────────────────
+EXTENDED METADATA SCHEMA — LIBRARY-SPECIFIC FIELDS
+────────────────────────────────────────────────────────────────────────────────
+
+LIBRARY 2 | TECHNICAL DOCUMENTATION — ADDITIONAL FIELDS
+  Field: Technology Component
+    Values: Patient Portal | EHR Integration (Epic) | EHR Integration (Cerner) |
+            Mobile Application | Notification Engine | Reporting Module |
+            Authentication / SSO | Infrastructure | Security Controls
+    Rationale: Enables component-level technical document retrieval. Critical
+               when debugging integration issues or preparing technical briefings.
+
+  Field: Facility Applicability
+    Values: All Facilities | Facility 1 (Primary Hospital) | Facility 2–5 |
+            Facility 6–9 | Facility 10–12 | [Individual Facility Name]
+    Rationale: Supports wave-based rollout documentation management.
+               Enables facility-specific go-live packages and hypercare records.
+
+LIBRARY 3 | STRATEGIC INTELLIGENCE — ADDITIONAL FIELDS
+  Field: Strategic Initiative
+    Values: Phase 2 – AI Diagnostics | Phase 2 – Telehealth Expansion |
+            Phase 2 – Population Health | Current Engagement (PEP) |
+            Cross-Program Intelligence
+    Rationale: Enables long-horizon strategic knowledge management. Documents
+               tagged for Phase 2 initiatives are discoverable when CloudTech
+               begins Phase 2 proposal preparation, regardless of when they
+               were created.
+
+  Field: Intelligence Source
+    Values: Internal Analysis | Client Interview | Market Research |
+            Regulatory Source | Industry Report | Peer Benchmark |
+            Lessons Learned
+    Rationale: Supports source credibility assessment and research provenance
+               tracking during executive briefing preparation.
+
+LIBRARY 4 | CLIENT COMMUNICATIONS — ADDITIONAL FIELDS
+  Field: Decision / Action Status
+    Values: Open | In Progress | Closed – Resolved | Closed – Deferred |
+            Escalated | Cancelled
+    Rationale: Enables action item tracking and decision register reporting
+               without requiring a separate project management tool query.
+
+  Field: Meeting Type
+    Values: Executive Briefing | Clinical Advisory Board | Technical Sync |
+            Change Control Board | Gate Review | Weekly Status | Ad Hoc
+    Rationale: Supports automated meeting package assembly and retrospective
+               review of governance meeting frequency and outcomes.
+
+LIBRARY 5 | TRAINING & PERFORMANCE — ADDITIONAL FIELDS
+  Field: Training Audience Role
+    Values: Patient-Facing Staff | Clinical (Physician) | Clinical (Nursing) |
+            IT Administrator | Revenue Cycle | Operations Manager | All Staff
+    Rationale: Enables role-specific training content curation and completion
+               tracking queries without manual filtering.
+
+  Field: Metric Category
+    Values: Patient Engagement | Clinical Adoption | Financial | Operational |
+            Training Effectiveness | Risk & Compliance
+    Rationale: Powers the performance reporting dashboard and enables
+               cross-phase metric trend analysis.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 3: CONTENT CATEGORY MAPPING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The Content Category Map defines four primary content domains, the document
+types that belong within each domain, their associated metadata classifications,
+and their specific governance and retention requirements.
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY A | PROJECT PLANNING & TECHNICAL DOCUMENTATION
+────────────────────────────────────────────────────────────────────────────────
+Primary Libraries:   01_Project-Governance | 02_Technical-Documentation
+Intended Users:      CloudTech project team; HS Regional IT and operations leads
+Confidentiality:     INTERNAL to CONFIDENTIAL (varies by document)
+
+Document Types Included:
+  - Project Management Plan and sub-plans (communications, risk, quality,
+    change management)
+  - Master project schedule and phase-level Gantt charts
+  - System architecture blueprints and integration specifications
+  - Platform configuration logs and environment guides
+  - Test plans, test cases, UAT results, and defect logs
+  - Infrastructure provisioning and security documentation
+  - Budget baselines and financial control reports
+
+Metadata Classification Requirements:
+  - Document Type: [Plan | Specification | Report | Dashboard]
+  - Project Phase: Required — phase-aligned tagging enforced at upload
+  - Technology Component: Required for all Library 2 documents
+  - Facility Applicability: Required for wave-specific deployment documents
+  - Document Status: Required — draft documents clearly distinguished from
+    approved baselines
+  - Review / Expiry Date: Required for Plans and Risk Registers (30-day
+    maximum review cycle)
+
+Strategic Purpose:
+  Technical documentation in this category forms the institutional knowledge
+  base that supports CloudTech's ability to onboard new team members rapidly,
+  defend delivery decisions during client escalations, and reuse proven
+  architectural patterns in future healthcare engagements.
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY B | STRATEGIC ANALYSIS & MARKET INTELLIGENCE
+────────────────────────────────────────────────────────────────────────────────
+Primary Library:     03_Strategic-Intelligence
+Intended Users:      CloudTech leadership; Strategic PM; Engagement Director
+Confidentiality:     CONFIDENTIAL to RESTRICTED (most documents)
+
+Document Types Included:
+  - Digital maturity assessments and current-state analysis reports
+  - Healthcare IT market research and peer benchmark reports
+  - Competitive landscape briefings
+  - Phase 2 business case drafts and opportunity analysis
+  - 3-year digital transformation roadmaps
+  - AI diagnostics, telehealth, and population health readiness assessments
+  - Regulatory environment briefings (HIPAA updates, CMS policy changes)
+  - Cross-engagement lessons learned (anonymized from prior engagements)
+
+Metadata Classification Requirements:
+  - Document Type: [Assessment | Roadmap | Briefing | Lessons Learned]
+  - Strategic Initiative: Required — links documents to future program phases
+  - Intelligence Source: Required — establishes research provenance
+  - Confidentiality Classification: RESTRICTED for Phase 2 business cases
+    and competitive analysis documents; CONFIDENTIAL for maturity assessments
+  - Stakeholder Audience: INTERNAL – CloudTech Only for Phase 2 opportunity
+    documents (HS Regional does not view these prior to formal presentation)
+
+Strategic Purpose:
+  This category is the most strategically valuable content domain for
+  CloudTech's long-term relationship with HS Regional. Documents accumulated
+  here during the $3.2M engagement directly inform the $15M program proposal
+  and position CloudTech to enter Phase 2 discussions with a depth of client
+  knowledge that competitors cannot replicate. This library is the
+  organization's competitive intelligence asset.
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY C | CLIENT COMMUNICATIONS, DECISIONS & CHANGE RECORDS
+────────────────────────────────────────────────────────────────────────────────
+Primary Library:     04_Client-Communications
+Intended Users:      CloudTech team + designated HS Regional stakeholders
+Confidentiality:     CONFIDENTIAL (most documents); RESTRICTED (legal/escalation)
+
+Document Types Included:
+  - Executive briefing decks and C-suite meeting minutes
+  - Clinical advisory board minutes and action logs
+  - Weekly status reports and technical sync notes
+  - Formal decision register and phase-level decision records
+  - Change request log, impact assessments, and approved change orders
+  - Executed contracts, formal correspondence, and legal review documents
+  - Escalation records
+
+Metadata Classification Requirements:
+  - Document Type: [Minutes | Briefing | Decision Record | Change Record |
+    Correspondence]
+  - Meeting Type: Required for all meeting minutes
+  - Decision / Action Status: Required for all decision and action records
+  - Stakeholder Audience: Required — determines which documents are visible
+    to HS Regional SharePoint users
+  - Confidentiality Classification: Executed contracts and legal documents
+    tagged RESTRICTED; executive briefings tagged CONFIDENTIAL
+
+Governance Significance:
+  This category is the legal and contractual record of the engagement.
+  Documents in this category may be referenced in dispute resolution, scope
+  negotiations, or audit proceedings. Retention policies are most stringent
+  here: 7-year minimum post-project retention, aligned with healthcare
+  consulting industry standards and contractual obligations.
+
+────────────────────────────────────────────────────────────────────────────────
+CATEGORY D | TRAINING, QA & PERFORMANCE METRICS
+────────────────────────────────────────────────────────────────────────────────
+Primary Library:     05_Training-and-Performance
+Intended Users:      CloudTech PM team; HS Regional training coordinators;
+                     facility operations managers
+Confidentiality:     INTERNAL to CONFIDENTIAL (varies by content)
+
+Document Types Included:
+  - End-user training guides, clinical workflow modules, and quick reference cards
+  - Training completion tracking reports and attendance logs
+  - Training effectiveness assessments and satisfaction surveys
+  - Change readiness assessments and adoption tracking dashboards
+  - Resistance logs and mitigation documentation
+  - Monthly KPI dashboard exports (patient engagement, clinical adoption)
+  - Executive performance summaries
+
+Metadata Classification Requirements:
+  - Document Type: [Training Material | Report | Dashboard | Assessment]
+  - Training Audience Role: Required for all training materials
+  - Metric Category: Required for all performance reports
+  - Facility Applicability: Required for facility-specific training records
+  - Document Status: Approved training materials clearly separated from
+    draft modules under development
+
+Strategic Purpose:
+  Training and adoption data in this category is the evidence base for the
+  clinical adoption KPIs that underpin the Phase 2 business case. High
+  adoption rates, documented here with full audit trails, demonstrate
+  CloudTech's change management capability — a critical differentiator in
+  complex healthcare digital transformation programs.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 4: GOVERNANCE & COMPLIANCE CONTROLS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GOVERNANCE PRINCIPLES
+----------------------
+Content governance on this engagement operates under the principle of least
+privilege — every user has access to exactly what they need, and no more.
+This principle protects HS Regional's sensitive organizational data, CloudTech's
+proprietary strategic intelligence, and the integrity of the contractual record.
+
+────────────────────────────────────────────────────────────────────────────────
+4A. VERSION CONTROL STANDARDS
+────────────────────────────────────────────────────────────────────────────────
+
+AUTOMATED VERSIONING
+  - SharePoint major and minor version history is enabled across all libraries.
+  - Major versions (1.0, 2.0, 3.0) represent formally approved document states.
+  - Minor versions (1.1, 1.2, 1.3) represent working drafts under review.
+  - Version history is retained indefinitely for all documents in Category C
+    (Client Communications & Change Records); 3 years for all other categories.
+
+VERSION NAMING CONVENTION
+  Standard format: [DocumentName]_v[Major].[Minor]_[YYYYMMDD]
+  Examples:
+    ProjectManagementPlan_v1.0_20250201   — Initial approved baseline
+    ProjectManagementPlan_v1.2_20250315   — Draft revision under review
+    ProjectManagementPlan_v2.0_20250401   — Updated approved version
+    EHRIntegrationSpec_v1.0_20250310      — First approved integration spec
+
+CO-AUTHORING CONTROLS
+  - Microsoft 365 co-authoring is enabled for draft documents (minor versions).
+  - Document check-out is required before editing approved documents (major
+    versions), preventing simultaneous conflicting edits.
+  - All edits to RESTRICTED documents require check-out regardless of status.
+
+CHANGE FREEZE PROTOCOL
+  - At each Gate Review, a "Configuration Freeze" is applied to all documents
+    supporting that gate. Frozen documents cannot be edited without a formal
+    Document Change Request, logged in the Change Management Library.
+
+────────────────────────────────────────────────────────────────────────────────
+4B. ACCESS MANAGEMENT MODEL
+────────────────────────────────────────────────────────────────────────────────
+
+ROLE-BASED ACCESS CONTROL (RBAC) MATRIX
+  Access is managed through SharePoint Permission Groups, not individual user
+  assignments, to ensure consistent control as team membership changes.
+
+  ROLE GROUP 1: CloudTech Core Project Team
+    Access Level: Full Control on Libraries 1–5
+    Members:      Project Manager, Technical Lead, Change Manager,
+                  Integration Architect, QA Lead
+    Justification: Operational delivery team requires full read/write access
+                   across all project content.
+
+  ROLE GROUP 2: CloudTech Leadership / Program Oversight
+    Access Level: Read + Contribute on Libraries 1–5;
+                  Full Control on Library 3 (Strategic Intelligence)
+    Members:      Engagement Director, Portfolio Manager, Practice Lead
+    Justification: Leadership oversight access without day-to-day edit
+                   permissions; full control of strategic intelligence content
+                   that is CloudTech-proprietary.
+
+  ROLE GROUP 3: HS Regional Executive Stakeholders
+    Access Level: Read Only — Libraries 4 (selected folders) and 5
+    Members:      HS Regional CIO, CMO, Designated Executive Assistants
+    Allowed:      Executive Briefings, Status Reports, Performance Dashboards,
+                  Decision Log (read), Approved Training Materials
+    Denied:       Library 1 (financial details), Library 3 (ALL — strategic
+                  intelligence is internal CloudTech only), Change Request
+                  details prior to formal approval
+
+  ROLE GROUP 4: HS Regional Clinical & Technical Stakeholders
+    Access Level: Read + Contribute (designated folders only)
+    Members:      IT Directors, Clinical Advisory Board members,
+                  Training Coordinators, Facility Operations Managers
+    Allowed:      Technical Specifications (review comments), UAT Records,
+                  Training Materials (contribute for facility-specific content),
+                  Meeting Minutes (read)
+    Denied:       Libraries 1, 3; Budget documents; Escalation Records
+
+  ROLE GROUP 5: Read-Only Observers
+    Access Level: Read Only — Library 4.2 and Library 5.1 only
+    Members:      Facility Department Heads, HR Training Staff
+    Justification: Visibility into training materials and status updates
+                   without broader project access.
+
+EXTERNAL SHARING CONTROLS
+  - External sharing is disabled at the tenant level for Library 3
+    (Strategic Intelligence) and all RESTRICTED documents.
+  - Sharing links for CONFIDENTIAL documents require internal authentication
+    (no anonymous links).
+  - All external sharing activity is logged and reviewed weekly by the PM.
+
+PRIVILEGED ACCESS REVIEW
+  - Access group membership is reviewed monthly by the PM.
+  - When team members depart (CloudTech or HS Regional), access is revoked
+    within 4 business hours via the Offboarding Access Revocation Checklist.
+
+────────────────────────────────────────────────────────────────────────────────
+4C. HEALTHCARE DATA PROTECTION & HIPAA COMPLIANCE CONTROLS
+────────────────────────────────────────────────────────────────────────────────
+
+ZERO PHI POLICY ENFORCEMENT
+  - No Protected Health Information (PHI) is to be stored in the SharePoint
+    environment under any circumstances. The project site manages project
+    documentation, not clinical data.
+  - If a document inadvertently contains PHI (e.g., a training scenario using
+    real patient data), the Document Owner must immediately:
+    (a) Remove access to the document
+    (b) Notify the PM within 1 hour
+    (c) Initiate the PHI Incident Response Protocol
+    (d) Replace the document with a de-identified version
+
+DATA LOSS PREVENTION (DLP) POLICIES
+  - Microsoft Purview DLP policies are configured to automatically scan all
+    uploads for patterns that may indicate PHI (SSNs, DOBs, MRNs, etc.).
+  - Documents triggering DLP alerts are automatically quarantined pending
+    PM review and reclassification or remediation.
+
+ENCRYPTION STANDARDS
+  - All documents at rest: AES-256 encryption (Microsoft 365 default).
+  - All documents in transit: TLS 1.3 minimum.
+  - RESTRICTED documents: Microsoft Purview Information Protection labels
+    applied, enabling persistent encryption and access tracking even when
+    documents are downloaded.
+
+AUDIT LOGGING
+  - SharePoint Unified Audit Logs capture all document access, edit, download,
+    share, and delete events.
+  - Audit logs are retained for 7 years, aligned with HIPAA audit requirements
+    and HS Regional's IS policy.
+  - Monthly audit log reviews are conducted by the PM; anomalous access events
+    (downloads of RESTRICTED documents, access outside business hours)
+    trigger automated alerts to the Engagement Director.
+
+RETENTION & DISPOSAL POLICY
+  Document Category         | Active Retention | Post-Project Retention
+  ————————————————————————————————————————————————
+  Project Planning / Tech   | Project duration  | 3 years
+  Strategic Intelligence    | Project + 5 yrs   | 5 years (CloudTech IP)
+  Client Comms / Contracts  | Project duration  | 7 years (legal requirement)
+  Training / Performance    | Project + 2 yrs   | 2 years
+  ————————————————————————————————————————————————
+  Disposal Method: Documents are not deleted — they are moved to a
+  read-only archive site with retained audit history. Physical destruction
+  of any printed copies follows NIST SP 800-88 media sanitization standards.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION 5: MODERN SEARCH OPTIMIZATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+THE LIMITATIONS OF FOLDER-ONLY ARCHITECTURE
+---------------------------------------------
+Traditional document management systems organize content exclusively through
+hierarchical folder structures. While intuitive to set up, folder-only systems
+create significant findability and governance problems as projects scale:
+
+  PROBLEM 1 — THE "ONE LOCATION" CONSTRAINT
+  A document can only exist in one folder. A Risk Register that is equally
+  relevant to Phase 2, the Executive stakeholder audience, and the EHR
+  Integration risk stream must be placed in a single location — making it
+  invisible to the other two use contexts unless copies are created.
+  Copies breed version confusion: which one is current?
+
+  PROBLEM 2 — RETRIEVAL REQUIRES LOCATION KNOWLEDGE
+  Finding a document in a folder structure requires knowing where it was
+  filed. New team members, executive stakeholders, or cross-functional
+  collaborators who don't know the filing convention spend significant
+  time searching manually — or simply ask the PM, consuming skilled time
+  on administrative tasks.
+
+  PROBLEM 3 — REPORTING IS MANUAL
+  Generating a compliance report of all HIPAA-sensitive documents, or a
+  Phase 3 document package for a Gate Review, requires manually opening
+  folders and selecting files. There is no automated way to query content
+  by multiple dimensions simultaneously.
+
+  PROBLEM 4 — GOVERNANCE GAPS EMERGE
+  Without mandatory classification fields, documents are frequently
+  misfiled, left without version numbers, or shared with incorrect
+  audiences. Governance relies entirely on human discipline — which
+  degrades under project delivery pressure.
+
+METADATA-DRIVEN SEARCH: HOW IT WORKS
+--------------------------------------
+In this framework, SharePoint's managed metadata and search capabilities
+transform document retrieval from a location-based hunt into a multi-
+dimensional query. The mechanics work as follows:
+
+  STEP 1 — UPLOAD WITH MANDATORY METADATA
+  When a document is uploaded, SharePoint requires the user to complete
+  the defined metadata fields before the document is published. This is
+  enforced through column validation rules, preventing ungoverned uploads.
+
+  STEP 2 — MICROSOFT SEARCH INDEXING
+  Microsoft Search indexes both document content (full text) and metadata
+  fields simultaneously. A single document becomes discoverable by its
+  name, its content, its phase, its type, its audience, its status,
+  and its related risk — all independently searchable dimensions.
+
+  STEP 3 — QUERY WITHOUT LOCATION KNOWLEDGE
+  A team member searching for "all approved documents for Phase 3 Clinical
+  Advisory Board" can filter by:
+    Document Status = Approved
+    Project Phase = Phase 3 – Pilot Deployment
+    Meeting Type = Clinical Advisory Board
+  ...and receive all matching documents across all libraries in seconds,
+  without knowing the folder structure.
+
+TRADITIONAL FOLDERS vs. METADATA-DRIVEN DISCOVERY: COMPARISON TABLE
+----------------------------------------------------------------------
+
+DIMENSION              | FOLDER-ONLY SYSTEM         | METADATA-DRIVEN SYSTEM
+————————————————————————————————————————————————————————————————————————————
+Document Retrieval     | Requires knowledge of        | Query by any combination of
+                       | folder location              | metadata dimensions
+                       |                              |
+Cross-Library Search   | Not possible without         | Native — search spans all
+                       | manual browsing              | libraries simultaneously
+                       |                              |
+Multi-Context Access   | One document, one location   | One document, discoverable
+                       | (or duplicate copies)        | from unlimited contexts
+                       |                              |
+New Team Onboarding    | Steep learning curve;        | Immediate productivity;
+                       | depends on tribal knowledge  | no location knowledge needed
+                       |                              |
+Compliance Reporting   | Manual folder-by-folder      | Automated query: generate
+                       | review required              | report in seconds
+                       |                              |
+Version Governance     | Naming conventions only;     | Major/minor versioning
+                       | easily broken                | enforced by system
+                       |                              |
+Access Control         | Folder-level permissions     | Document-level + metadata-
+                       | only; coarse-grained         | driven DLP; fine-grained
+                       |                              |
+Executive Search UX    | Requires PM assistance       | Self-service via SharePoint
+                       | to locate documents          | search and filtered views
+                       |                              |
+Strategic Intelligence | Locked in folder silos;      | Discoverable by initiative,
+                       | hard to cross-reference      | phase, source, and audience
+                       |                              |
+Audit Trail            | Folder access logs only      | Document-level audit with
+                       | (limited granularity)        | full lifecycle tracking
+————————————————————————————————————————————————————————————————————————————
+
+MICROSOFT COPILOT INTEGRATION WITH METADATA SEARCH
+----------------------------------------------------
+This metadata architecture is specifically designed to maximize the value of
+Microsoft Copilot's enterprise search and content summarization capabilities:
+
+  COPILOT FOR MICROSOFT 365 — PROJECT SEARCH
+  Copilot can process natural-language project queries ("What decisions were
+  made in the Phase 2 Gate Review related to EHR integration?") and retrieve
+  relevant documents from across all libraries, using metadata as the
+  precision filter that ensures accurate results rather than broad text
+  matches. Without rich metadata, Copilot returns low-precision results.
+  With this schema, Copilot becomes a true project intelligence assistant.
+
+  COPILOT REPORT GENERATION
+  Monthly Executive Briefings can be generated by Copilot by querying
+  "all KPI dashboard documents tagged Metric Category = Patient Engagement,
+  Project Phase = Phase 3, Document Status = Approved" — producing
+  source-verified drafts in minutes rather than hours.
+
+SEARCH OPTIMIZATION CONFIGURATION IN SHAREPOINT
+-------------------------------------------------
+  - Custom search verticals are configured for each Content Category,
+    allowing users to search within a specific domain (e.g., "Technical
+    Documentation" or "Executive Briefings") rather than the entire site.
+  - Refinement panels expose all metadata fields as search filters,
+    enabling rapid narrowing of results.
+  - Promoted results are configured for the most frequently accessed
+    documents (Master Schedule, Risk Register, KPI Dashboard) so they
+    surface as top results for common queries.
+  - Saved search views are published for recurring governance use cases:
+      "Phase [N] Gate Review Document Package"
+      "This Week's Executive-Audience Documents"
+      "All Open Action Items — Decision Log"
+      "Training Materials by Role — [Role Name]"
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FRAMEWORK SUMMARY & IMPLEMENTATION ROADMAP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WEEK 1   — SharePoint site provisioned; RBAC groups configured; DLP policies
+           applied; Term Store (metadata taxonomy) built and published.
+WEEK 2   — All Document Libraries created with column schemas deployed;
+           validated document naming conventions and upload guidelines
+           published to project team.
+WEEK 3   — Team onboarding: 2-hour DCMF training session covering metadata
+           tagging, version control, access protocols, and PHI policy.
+WEEK 4   — Initial document population: all Phase 1 documents uploaded,
+           classified, and validated by PM before engagement kickoff.
+ONGOING  — Monthly governance reviews: access audit, DLP alert review,
+           metadata compliance check, and document ownership validation.
+MONTH 15 — Project close: archive transition, retention labels applied,
+           strategic intelligence library transferred to CloudTech
+           Program Hub for Phase 2 preparation.
+
+This framework is not merely an information management tool — it is a strategic
+asset. The structured, governed, and searchable knowledge base built during this
+$3.2M engagement becomes CloudTech's most durable competitive advantage as we
+pursue the $15M digital transformation partnership with HealthSystem Regional.
+
+--------------------------------------------------------------------------------
+Document Version:   1.0 (Initial Release)
+Prepared By:        Senior Strategic Project Manager, CloudTech Solutions
+Review Status:      Pending IT Security and Compliance Approval
+Classification:     CONFIDENTIAL — CloudTech Solutions Internal Framework
+                    (Sharable with HS Regional upon executive request)
+--------------------------------------------------------------------------------
